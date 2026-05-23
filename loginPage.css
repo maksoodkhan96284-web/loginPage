@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    /* align-items: center; */
+}
+
+body {
+    justify-content: center;
+    background-image: url(https://img.magnific.com/premium-vector/padlock-with-keyhole-icon-personal-data-security-illustrates-cyber-data-information-privacy-idea-blue-color-abstract-hi-speed-internet-technology_542466-600.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.plog{
+    font-size: 12px;
+}
+
+.login-box {
+    height: 400px;
+    width: 250px;
+    color: white;
+    background-color: rgba(9, 8, 99, 0.836);
+    margin-top: 70px;
+    padding: 10px 2%;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+label{
+    font-size: 11px;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 7px;
+    background: none;
+}
+
+.checkbox {
+    height: 10px;
+    width: 10px;
+    border: white;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    width: 60%;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 7px;
+    margin-left: 20%;
+    transition: all 0.2s ease-in;
+}
+button:hover{
+    background-color: blue;
+    border: none;
+    font-size: 17px;
+}
+.bottom a{
+    color: blue;
+}
+.bottom{
+    font-size: 12px;
+    margin-left: 10%;
+}
+.row{
+    font-size: 12px;
+}
+.row input{
+    background: none;
+    color: red;
+}
+.row a{
+    color: blue;
+    margin-left: 60%;
+}
